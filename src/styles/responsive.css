@@ -1,0 +1,89 @@
+@media screen and (min-width: 768px) {
+  header {
+    h2 {
+      font-size: 30px;
+    }
+
+    .system-hour {
+      font-size: 26px;
+    }
+
+    .system-date {
+      font-size: 22px;
+    }
+
+    .add-task-btn {
+      font-size: 34px;
+    }
+  }
+
+  .task-list {
+    .task {
+      padding: 16px 8px;
+
+      .check-btn {
+        font-size: 22px;
+      }
+
+      .task-info {
+        padding-left: 36px;
+        .task-title {
+          font-size: 22px;
+        }
+
+        .task-category {
+          font-size: 18px;
+
+          .separator {
+            margin: 0 10px;
+            font-size: 10px;
+          }
+          .separator + i {
+            margin-right: 4px;
+          }
+        }
+      }
+
+      .task-buttons {
+        gap: 12px;
+
+        .edit-btn,
+        .delete-btn {
+          padding: 8px;
+          border: 2px solid #212121;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .modal-container {
+    width: 425px;
+    padding: 24px;
+  
+    .modal-header {
+      margin-bottom: 20px;
+  
+      span {
+        font-size: 24px;
+      }
+    }
+  
+    .modal-body {
+      label {
+        margin-bottom: 10px;
+        font-size: 18px;
+      }
+    }
+  
+    .modal-footer {
+      margin-top: 20px;
+  
+      button {
+        margin-left: 12px;
+        padding: 10px;
+        width: 80px;
+      }
+    }
+  }
+}
